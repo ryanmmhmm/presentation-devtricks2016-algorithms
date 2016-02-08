@@ -1,22 +1,53 @@
-<html>
+<!doctype html>
+<html lang="en">
   <head>
     <link rel="stylesheet" href="css/reveal.css">
-    <link rel="stylesheet" href="css/theme/moon.css">
+    <link rel="stylesheet" href="css/theme/moon.css" id="theme">
   </head>
   <body>
     <div class="reveal">
       <div class="slides">
-        <section>Horizontal Slide 1</section>
+        <section>
+          <a href="http://ryanmagowan.com" target="_blank"><img src="img/logo.png" alt="rm logo"  height="100"></a>
+          <h2>Algorithms: an interviewer's inspection</h2>
+          <h4>By: Ryan Magowan</h4>
+          <p><a href="https://github.com/ryanmmhmm" target="_blank">GitHub</a> | <a href="https://www.twitter.com/ryanmmhmm" target="_blank">@RyanMmHmm</a> | <a href="http://ryanmagowan.com" target="_blank">www</a></p>
+          <p></p>
+          <p>Monday, Feb 8th, 2016</p>
+          <p>Dev Tricks | <a href="http://www.softwareniagara.com" target="_blank">Software Niagara</a> @ <a href="http://coworkniagara.com">Co<b>work</b> Niagara</a></p>
+        </section>
+        <section>
           <section>
-            <section>Vertical Slide 1</section>
-            <section>Vertical Slide 2</section>
+            <h2>About Me:</h2>
+            <ul>
+              <li>Recently graduated <a href="http://bitmakerlabs.com">Bitmaker's</a> Web Dev immersive course</li>
+              <li>Have interviewed with multiple companies to become a Jr. Web Developer</li>
+              <li>Want to help others learn from my experiences</li>
+            </ul>
           </section>
-        <section>Horizontal Slide 2</section>
+          <section>
+            <h2>Here I can talk about things relative to the above</h2>
+            <p>yay for talking about things that are relative</p>
+          </section>
+        </section>
+        <section>
+          <h1>New heading</h1>
+        </section>
       </div>
     </div>
-    <script src"js/reveal.js"></script>
+    <script src="js/reveal.js"></script>
     <script>
-    Reveal.initialize()
+    Reveal.initialize({
+
+      backgroundTransition: 'convex',
+
+      // Init Presentation Default Sizing
+      width: 960,
+      height: 700,
+      margin: 0.1,
+      minScale: 0.2,
+      maxScale: 1.5
+    });
     </script>
   </body>
 </html>
