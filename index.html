@@ -75,6 +75,7 @@
               <li>Find Missing Number in Sequence</li>
               <li>Balancing Brackets</li>
             </ul>
+            <p><i>I have not worked on computer algorithms since highschool, so I found this difficult to jump into, especially when under pressure.</i></p>
           </section>
           <section>
             <p><b>Lets see some code!</b></p>
@@ -84,6 +85,8 @@
           <h2>FizzBuzz</h2>
           <section>
             <p>...go to text editor...</p>
+            <p><i>(add picture slide later)</i></p>
+            <p>solution file is included in git repo.</p>
           </section>
           <section>
             <p>Simple problem displaying knowledge of flow control.</p>
@@ -93,6 +96,8 @@
           <h2>Find Missing Number in Sequence</h2>
           <section>
             <p>...go to text editor...</p>
+            <p><i>(add picture slide later)</i></p>
+            <p>solution file is included in git repo.</p>
           </section>
           <section>
             <p>Some of these problems can be solved in a simple way.</p>
@@ -100,17 +105,64 @@
           </section>
         </section>
         <section>
-          <h3>Balancing Brackets</h3>
+          <h2>Balancing Brackets</h2>
           <section>
-            <p>This is where things can get more complex...</p>
+            <p>For a given input string of open and closed brackets, determine if the set is closed or not closed.</p>
+            <p>Ex: "( )" is true</p>
           </section>
           <section>
-            <p>...go to text editor...</p>
+            <p><u>Before you even THINK about coding, analyze the problem:</u></p>
+            <ul>
+              <li>Define what closure means</li>
+              <li>What's the input? (string of text)</li>
+              <li>What's the output? (true or false)</li>
+              <li>Define rules</li>
+              <li>Break out rules into test cases</li>
+              <li>What tools can you use for the job?</li>
+              <li>Now you can build a solution</li>
+            </ul>
           </section>
           <section>
-            <h3>Multiple Solutions to this Problem</h3>
+            <p>Input is a string of brackets</p>
+            <p>Output is <b>true</b> or <b>false</b></p>
+            <p><i>THEREFORE: the main operation must be a comparison</i></p>
+          </section>
+          <section>
+            <p><u>What are the rules?:</u></p>
+            <ul>
+              <li>Closures happen in pairs --> string must be even in length</li>
+              <li>Open bracket must occur before a closed bracket --> order matters</li>
+            </ul>
+          </section>
+          <section>
+            <p><u>Breakout rules into test cases:</u></p>
+            <p>Make sure to list cases that are true and false</p>
+            <ul>
+              <li>"()" is <b>true</b></li>
+              <li>"())" is <b>false</b> # odd</li>
+              <li>"()((" is <b>false</b> # not closed</li>
+              <li>"(()())" is <b>true</b></li>
+              <li>")(" is <b>false</b> # closed bracket before open </li>
+            </ul>
+          </section>
+          <section>
+            <p><u>What tools can be used for the job?</u></p>
+            <p>Order Matters:</p>
             <ul>
               <li>Counter</li>
+              <li>Array</li>
+            </ul>
+          </section>
+          <section>
+            <p><u>Now we can build a solution:</u></p>
+            <p>...go to text editor...</p>
+            <p><i>(add picture slide later)</i></p>
+            <p>solution files are included in git repo.</p>
+          </section>
+          <section>
+            <h3>Multiple Solutions to this Problem:</h3>
+            <ul>
+              <li><b>Counter</b></li>
               <li>Hash-Table Counter</li>
               <li>Stack</li>
               <li>...and likely more...</li>
@@ -118,7 +170,15 @@
           </section>
           <section>
             <h3>Adding complexity can change your solution</h3>
+            <ul>
+              <li>What if there are multiple types of brackets?</li>
+              <li>What happens if the input is extremely large?</li>
+              <li>What happens if there is other characters in the input?</li>
+            </ul>
             <p>Typically the best solution performs the best for all complexities of the problem.</p>
+          </section>
+          <section>
+            <p>This is where things can get more complex...</p>
           </section>
         </section>
       </div>
